@@ -13,9 +13,18 @@
        item.name=Moonic_Staff;
        item.damage=12;
        item.rarity=Unique;
+       item.text=The gift of your mother...;
      //}
      
 *First weapon that player receives of the moon to defend theirselves.
+
+    {//
+      item.name=Solar Eclipses essenci;
+      item.damage=24;
+      item.rarity=Rare;
+      item.speed=6;
+      item.text=The true essence of the dark Solar Eclipse.;
+    //}
 
     {//
       player.name=Lunei;
