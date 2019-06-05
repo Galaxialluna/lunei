@@ -1,0 +1,45 @@
+<Maintitle>Lunei</Maintitle>
+<body>
+ <table>
+ <td>
+      {//  
+       screen.width=10;
+       screen.height=5;
+      //}
+
+*how big screen of the application will be.
+
+     {// 
+       item.name=Moonic_Staff;
+       item.damage=12;
+       item.rarity=Unique;
+     //}
+     
+*First weapon that player receives of the moon to defend theirselves.
+
+    {//
+      player.name=Lunei;
+      player.width=0,3;
+      player.length=0.3;
+    //}
+    
+*Player details.
+</td>
+   </table>
+   <table>
+   
+Characters:
+<li>
+  Lunei
+  The Moon
+  The sun
+  The Eclipse
+  The Lunar eclipse
+  The Frozenihzer
+ </li>
+ 
+   </table>
+   
+       </body>
+        
+     
