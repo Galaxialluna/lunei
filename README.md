@@ -11,3 +11,5 @@ Planned release date: ??? (somewhere around 2021)
 
 View codes for stuff.
 We are searching for animators in the meanwhile ( or spriters )
+
+When Downloading, please make sure to only download the Master part. The other parts are unfinished thingies or images.
