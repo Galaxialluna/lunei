@@ -35,9 +35,9 @@
     //}
 
     {//
-      player.name=Lunei;
-      player.width=0,3;
-      player.length=0.3;
+      player.name="Lunei";
+      player.width="0,3";
+      player.length="0.3";
     //}
     
 #Player details.
