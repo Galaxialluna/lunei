@@ -3,27 +3,35 @@
  <table>
  <td>
       {//  
-       screen.width=10;
-       screen.height=5;
+       screen.width="10";
+       screen.height="5";
       //}
 
-*how big screen of the application will be.
+#how big screen of the application will be.
 
      {// 
-       item.name=Moonic_Staff;
-       item.damage=12;
-       item.rarity=Unique;
-       item.text=The gift of your mother...;
+       item.name="Moonic_Staff";
+       item.damage="12";
+       item.rarity="Unique";
+       item.text="The gift of your mother...";
      //}
      
-*First weapon that player receives of the moon to defend theirselves.
+#First weapon that player receives of the moon to defend theirselves.
 
     {//
-      item.name=Solar Eclipses essenci;
-      item.damage=24;
-      item.rarity=Rare;
-      item.speed=6;
-      item.text=The true essence of the dark Solar Eclipse.;
+      item.name="Solar Eclipses essenci";
+      item.damage="24";
+      item.rarity="Rare";
+      item.speed="6";
+      item.text="The true essence of the dark Solar Eclipse.";
+    //}
+    
+    {//
+      item.name="Mothiflin"
+      item.damage="37";
+      item.rarity="Uniquely Uncommon";
+      item.speed="7"
+      item.text="The power of the night butterflies...";
     //}
 
     {//
@@ -32,7 +40,7 @@
       player.length=0.3;
     //}
     
-*Player details.
+#Player details.
 </td>
    </table>
    <table>
