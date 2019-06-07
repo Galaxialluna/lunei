@@ -33,6 +33,14 @@
       item.speed="7"
       item.text="The power of the night butterflies...";
     //}
+    
+    {//
+      item.name="Sugar Of the Cubes";
+      item.damage="39";
+      item.rarity='Uncommon";
+      item.speed="6";
+      item.text="The sugar elementals have dropped this weapon right in front of your sight.";
+    //}
 
     {//
       player.name="Lunei";
@@ -47,13 +55,22 @@
    
 Characters:
 <li>
-  Lunei
+  "Lunei
   The Moon
   The sun
   The Eclipse
   The Lunar eclipse
-  The Frozenihzer
+  The Frozenihzer"
  </li>
+Current Enemies:
+ <li>
+  "Sugar elemental
+  Cloudy spiders
+  Meteorazity's
+  Polystones
+  Kaleido telescopes
+  Mlic's"
+ </li
  
    </table>
    
