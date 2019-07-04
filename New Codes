@@ -1,22 +1,33 @@
 <Maintitle>Lunei</Maintitle>
 <body>
- <table>
- <td>
-      {//  
+
+    <table>
+     <td>
+      {//
        screen.width="10";
        screen.height="5";
       //}
 
 #how big screen of the application will be.
 
-     {// 
+     {//
        item.name="Moonic_Staff";
        item.damage="12";
        item.rarity="Unique";
        item.text="The gift of your mother...";
+       class.type="all";
+       type="sword_staff_bow";
      //}
-     
+
 #First weapon that player receives of the moon to defend theirselves.
+    {//
+      name="Solar Eclipse";
+      health="1200";
+      type="boss";
+      contact.laser="35";
+      contact.biggerlaser="70";
+      drops="Solar Eclipse essenci.25%""Solar tinapplica.25%""Solarium Tene.25%""Sunshine sorrow.25%"
+
 
     {//
       item.name="Solar Eclipses essenci";
@@ -24,56 +35,197 @@
       item.rarity="Rare";
       item.speed="6";
       item.text="The true essence of the dark Solar Eclipse.";
+      magic.usage="5";
+      class.type="magic";
+      type="orb";
+      drop.chance="25%";
     //}
-    
+
     {//
-      item.name="Mothiflin"
+      item.name="Solar tinapplica";
+      item.damage="25";
+      item.rarity="Rare";
+      item.text="the dark solar eclipse just begun...";
+      magic.usage="6";
+      class.type="magic";
+      type="staff";
+      drop.chance="25%";
+      //}
+
+     {//
+      item.name="Solarium Tene";
+      item.damage="23";
+      item.rarity="Rare"
+      item.speed="5";
+      class.type="melee"
+      type="sword";
+      drop.chance="25%";
+      //}
+
+      {//
+       item.name="Sunshine Sorrow";
+       item.damage="26";
+       item.rarity="Rare"
+       item.speed="3";
+       class.type="Ranged";
+       type="bow";
+       drop.chance="25%";
+       ammo="Arrows";
+       //}
+
+    {//
+    name="Mothiflitan";
+    health="48000";
+    type="boss";
+    contact.damage="67";
+    laser.damage="89";
+    knockback.resistance="12";
+    drops="Mothiflin.25%""Mothgen.25%""Mothwings.25%""mothified object.25%";
+
+     {//
+      item.name="Mothiflin";
       item.damage="37";
       item.rarity="Uniquely Uncommon";
       item.speed="7"
       item.text="The power of the night butterflies...";
+      magic.usage="9";
+      class.type="magic";
+      type="staff";
+      drop.chance="25%";
     //}
-    
+
     {//
-      item.name="Sugar Of the Cubes";
+     item.name="Mothgen"
+     item.damage="36";
+     item.rarity="Uniquely Uncommon";
+     item.speed="7";
+     class.type="melee";
+     type="sword";
+     drop.chance="25%";
+     //}
+
+     {//
+     item.name="Mothwings";
+     item.damage="39";
+     item.rarity="Uniquely Uncommon";
+     item.speed="7"
+     class.type="Ranged";
+     type="bow";
+     drop.chance="25%";
+     ammo="Arrows";
+     //}
+
+     {//
+       item.name="mothified object";
+       item.rarity="Uncommon";
+       unlocks="crafting "Mothwings", "Mothgen" and "Mothiflin"";
+       drop.chance="25%";
+       //}
+
+    {//
+      item.name="Sugar Of the Cube Orbs";
       item.damage="39";
-      item.rarity='Uncommon";
+      item.rarity="Uncommon";
       item.speed="6";
       item.text="The sugar elementals have dropped this weapon right in front of your sight.";
+      magic.usage="7";
+      class.type="magic";
+      type="Cube Orb";
+      drop.chance="25%";
     //}
+
+    {//
+     item.name="Elemental Sugar Snack";
+     item.damage="40";
+     item.rarity="Uncommon";
+     item.speed="6";
+     item.text="Sugar Snack! May it be tasting hurtful for your enemies.";
+     class.type="melee";
+     type="sword";
+     drop.chance="25%";
+     //};
+
+     {//
+     item.name="Sugarine Flavour";
+     item.damage="42";
+     item.rarity="Uncommon";
+     item.speed="4";
+     item.text="Your enemies would die from the yummyness!";
+    class.type="Ranged";
+    type="bow";
+    ammo="Arrows";
+    drop.chance="25%";
+
+  //}
+
+   {//
+    item.name="Seclia's Sorrow";
+    item.rarity="Very Rare";
+    add="+5 damage";
+    item.text="This left behind sorrow of a spirit is now in your hands, if you'll use it for good things, it'll grant you special powers";
+		crafting="1 Seclia's teardrop""1 Seclia's essences";
+  //}
+
+
+    {//
+    name="Galaxial Elemental";
+    type="mini-boss";
+    health="4500";
+    contact.damage="45";
+    magicspray.damage="78";
+    drops="Starmint Rage.1%";
+		{//
+	  item.name="Starmint Rage";
+		item.damage="82";
+		item.rarity="Uncommonly Rarely Uniquely";
+		item.speed="12"
+    item.text="This weapon might be overpowered, but it was a hard duty to obtain";
+    class.type="magic";
+    type="Orb";
+    magic.usage="15";
+    class.type="magic";
+    drop.chance="1%";
+    dropped.by="Galaxial Elemental";
+    //}
+
+    {//
+    item.name="Atmospheral teleportation System UI";
+    add="+25 damage";
+    does="can teleport you everywhere";
+    item.text="Teleports you wherever you want!";
+    drop.chance="25%";
+    dropped.by="Galaxial Elemental";
 
     {//
       player.name="Lunei";
       player.width="0,3";
       player.length="0.3";
     //}
-    
+
 #Player details.
 </td>
    </table>
    <table>
-   
+
 Characters:
 <li>
-  "Lunei
-  The Moon
-  The sun
-  The Eclipse
-  The Lunar eclipse
-  The Frozenihzer"
+  "Lunei;
+  The Moon;
+  The sun;
+  The Eclipse;
+  The Lunar eclipse;
+  The Frozenihzer";
  </li>
 Current Enemies:
  <li>
-  "Sugar elemental
-  Cloudy spiders
-  Meteorazity's
-  Polystones
-  Kaleido telescopes
-  Mlic's"
- </li
- 
+  "Sugar elemental;
+  Cloudy spiders;
+  Meteorazity's;
+  Polystones;
+  Kaleido telescopes;
+  Mlic's";
+ </li>
+
    </table>
-   
+
        </body>
-        
-     
