@@ -199,14 +199,6 @@
     //}
 
     {//
-    name="Kaleido Telescope";
-    type="enemy";
-    contact.damage="20";
-    health="180";
-    drops="Mayor Jalieido";
-    //}
-
-    {//
     item.name="Mayor Jalieido";
     item.damage="23";
     item.rarity="common";

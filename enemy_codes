@@ -1,1 +1,14 @@
-Gonna edit this in Atom.
+{//
+name="Kaleido Telescope";
+type="enemy";
+contact.damage="20";
+health="180";
+drops="Mayor Jalieido";
+//}
+
+{//
+name="Sugar Elemental";
+type="Mini-Boss";
+contact.damage="45";
+health="8900";
+drops="Sugar of the Cube Orbs.25%""Elemental Sugar Snack.25%""Sugarine Flavour.25%";
