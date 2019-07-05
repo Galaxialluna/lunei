@@ -17,6 +17,7 @@
        item.text="The gift of your mother...";
        class.type="all";
        type="sword_staff_bow";
+       drop.chance="100%";
      //}
 
 #First weapon that player receives of the moon to defend theirselves.
@@ -26,7 +27,7 @@
       type="boss";
       contact.laser="35";
       contact.biggerlaser="70";
-      drops="Solar Eclipse essenci.25%""Solar tinapplica.25%""Solarium Tene.25%""Sunshine sorrow.25%"
+      drops="Solar Eclipse essenci.25%""Solar tinapplica.25%""Solarium Tene.25%""Sunshine sorrow.25%";
 
 
     {//
@@ -95,7 +96,7 @@
     //}
 
     {//
-     item.name="Mothgen"
+     item.name="Mothgen";
      item.damage="36";
      item.rarity="Uniquely Uncommon";
      item.speed="7";
@@ -108,7 +109,7 @@
      item.name="Mothwings";
      item.damage="39";
      item.rarity="Uniquely Uncommon";
-     item.speed="7"
+     item.speed="7";
      class.type="Ranged";
      type="bow";
      drop.chance="25%";
@@ -143,7 +144,7 @@
      class.type="melee";
      type="sword";
      drop.chance="25%";
-     //};
+     //}
 
      {//
      item.name="Sugarine Flavour";
@@ -178,7 +179,7 @@
 	  item.name="Starmint Rage";
 		item.damage="82";
 		item.rarity="Uncommonly Rarely Uniquely";
-		item.speed="12"
+		item.speed="12";
     item.text="This weapon might be overpowered, but it was a hard duty to obtain";
     class.type="magic";
     type="Orb";
@@ -195,6 +196,25 @@
     item.text="Teleports you wherever you want!";
     drop.chance="25%";
     dropped.by="Galaxial Elemental";
+    //}
+
+    {//
+    name="Kaleido Telescope";
+    type="enemy";
+    contact.damage="20";
+    health="180";
+    drops="Mayor Jalieido";
+    //}
+
+    {//
+    item.name="Mayor Jalieido";
+    item.damage="23";
+    item.rarity="common";
+    drop.chance="50%";
+    item.class="ranged";
+    type="bow";
+    item.text="This thing isn't rare, but is still worth it, don't you think so?";
+    //}
 
     {//
       player.name="Lunei";
@@ -209,21 +229,21 @@
 
 Characters:
 <li>
-  "Lunei;
-  The Moon;
-  The sun;
-  The Eclipse;
-  The Lunar eclipse;
-  The Frozenihzer";
+  "Lunei";
+  "The Moon";
+  "The sun";
+  "The Eclipse";
+  "The Lunar eclipse";
+  "The Frozenihzer";
  </li>
 Current Enemies:
  <li>
-  "Sugar elemental;
-  Cloudy spiders;
-  Meteorazity's;
-  Polystones;
-  Kaleido telescopes;
-  Mlic's";
+  "Sugar elemental";
+  "Cloudy spiders";
+  "Meteorazity's";
+  "Polystones";
+  "Kaleido telescopes";
+  "Mlic's";
  </li>
 
    </table>
