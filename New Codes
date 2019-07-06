@@ -3,12 +3,6 @@
 
     <table>
      <td>
-      {//
-       screen.width="10";
-       screen.height="5";
-      //}
-
-#how big screen of the application will be.
 
      {//
        item.name="Moonic_Staff";
@@ -21,14 +15,6 @@
      //}
 
 #First weapon that player receives of the moon to defend theirselves.
-    {//
-      name="Solar Eclipse";
-      health="1200";
-      type="boss";
-      contact.laser="35";
-      contact.biggerlaser="70";
-      drops="Solar Eclipse essenci.25%""Solar tinapplica.25%""Solarium Tene.25%""Sunshine sorrow.25%";
-
 
     {//
       item.name="Solar Eclipses essenci";
@@ -74,14 +60,7 @@
        ammo="Arrows";
        //}
 
-    {//
-    name="Mothiflitan";
-    health="48000";
-    type="boss";
-    contact.damage="67";
-    laser.damage="89";
-    knockback.resistance="12";
-    drops="Mothiflin.25%""Mothgen.25%""Mothwings.25%""mothified object.25%";
+
 
      {//
       item.name="Mothiflin";
@@ -167,14 +146,6 @@
 		crafting="1 Seclia's teardrop""1 Seclia's essences";
   //}
 
-
-    {//
-    name="Galaxial Elemental";
-    type="mini-boss";
-    health="4500";
-    contact.damage="45";
-    magicspray.damage="78";
-    drops="Starmint Rage.1%";
 		{//
 	  item.name="Starmint Rage";
 		item.damage="82";
@@ -207,6 +178,11 @@
     type="bow";
     item.text="This thing isn't rare, but is still worth it, don't you think so?";
     //}
+
+    {//
+    item.name="cloud";
+    type="material";
+    max="999"
 
     {//
       player.name="Lunei";

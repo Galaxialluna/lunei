@@ -11,4 +11,42 @@ name="Sugar Elemental";
 type="Mini-Boss";
 contact.damage="45";
 health="8900";
+knockback.resistance="89";
 drops="Sugar of the Cube Orbs.25%""Elemental Sugar Snack.25%""Sugarine Flavour.25%";
+//}
+
+{//
+name="Mothiflitan";
+health="48000";
+type="boss";
+contact.damage="67";
+laser.damage="89";
+knockback.resistance="12";
+drops="Mothiflin.25%""Mothgen.25%""Mothwings.25%""mothified object.25%";
+//}
+
+{//
+  name="Solar Eclipse";
+  health="1200";
+  type="boss";
+  contact.laser="35";
+  contact.biggerlaser="70";
+  drops="Solar Eclipse essenci.25%""Solar tinapplica.25%""Solarium Tene.25%""Sunshine sorrow.25%";
+  //}
+
+  {//
+  name="Galaxial Elemental";
+  type="mini-boss";
+  health="4500";
+  contact.damage="45";
+  magicspray.damage="78";
+  drops="Starmint Rage.1%";
+  //}
+
+  {//
+  name="Cloudy Spider";
+  type="enemy";
+  health="350";
+  contact.damage="20";
+  drops="1-3 cloud.100%";
+  //}
