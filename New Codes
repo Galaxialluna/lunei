@@ -176,14 +176,40 @@
     drop.chance="50%";
     item.class="ranged";
     type="bow";
-    item.text="This thing isn't rare, but is still worth it, don't you think so?";
+    print("This thing isn't rare, but is still worth it, don't you think so?")
     //}
 
     {//
     item.name="cloud";
     type="material";
     max="999"
+    //}
 
+    {//
+     item.name="Mlicanoid Ore";
+     type="material";
+     max="999";
+     used.in="Mlicanoid Bar";
+     //}
+
+     {//
+     item.name="Mlicanoid Bar";
+     type="material";
+     max="225";
+     crafted.by="Mlicanoid Ore + furnace";
+     used.in="Meltaminator";
+     //}
+
+     {//
+     item.name="Meltaminator";
+     item.damage="90";
+     item.speed="10";
+     type="sword";
+     crafted.by="75 Mlicanoid Bars";
+     item.rarity="Positively_and_rarely_Uncommon";
+     class.type="Melee";
+     //}
+     
     {//
       player.name="Lunei";
       player.width="0,3";
