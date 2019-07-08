@@ -209,6 +209,12 @@
      item.rarity="Positively_and_rarely_Uncommon";
      class.type="Melee";
      //}
+
+     {//
+     item.name="Seclia's Gemstone"
+     type="accesory"
+     add="+50 damage to 'magic' weapons"
+     //}
      
     {//
       player.name="Lunei";
