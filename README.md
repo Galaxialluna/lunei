@@ -7,6 +7,7 @@ You will obtain weapons and other stuff. You will need to save the moon or take 
 You can go on adventure, create your world and do stuff after the storyline is done.
 As you further pogress, there will be more dangerous encounters. You can make your choices  throughout.
 If we get good feedbacks on the first official release, we will add Multiplayer into the next update, together with some other bug fixes.
+If it becomes really good, we'll add 80% of all suggestions into the game! Stay Tuned!
 
 
 Planned release date: ??? (somewhere around 2021)
