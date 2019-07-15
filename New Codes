@@ -201,6 +201,11 @@
      //}
 
      {//
+     item.name="furnace"
+     type="crafting.station"
+     w.i.p.
+
+     {//
      item.name="Meltaminator";
      item.damage="90";
      item.speed="10";
@@ -215,7 +220,13 @@
      type="accesory"
      add="+50 damage to 'magic' weapons"
      //}
-     
+
+     {//
+     item.name="Stalimantis";
+     item.damage="9999999";
+     obtained.by=Startup DivineMode
+    //}
+
     {//
       player.name="Lunei";
       player.width="0,3";
