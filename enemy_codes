@@ -58,3 +58,10 @@ drops="Mothiflin.25%""Mothgen.25%""Mothwings.25%""mothified object.25%";
   contact.damage="35";
   drops="25-80 Mlicanoid ore.100%";
   //}
+
+{//
+  name="DustyFloeur"
+  type="enemy"
+  health="790"
+  contact.damage="40"
+ //}
