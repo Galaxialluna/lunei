@@ -223,9 +223,23 @@
 
      {//
      item.name="Stalimantis";
-     item.damage="9999999";
+     item.damage="9999";
      obtained.by=Startup DivineMode
     //}
+
+    {//
+    theme=true
+    start=Startup DivineMode
+    Current inventory= 'Stalimantis'
+    add effect = 95.invisible
+   //}
+
+    {//
+    theme=true
+    start=start DeculanMode
+    add effect = 56.harder
+    //}
+
 
     {//
       player.name="Lunei";
