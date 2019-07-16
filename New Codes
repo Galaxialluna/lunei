@@ -229,6 +229,13 @@
 
     {//
     theme=true
+    start=Startup NormalMode
+    add effect= normal.experience
+    Current inventory= empty
+    //}
+    
+    {//
+    theme=true
     start=Startup DivineMode
     Current inventory= 'Stalimantis'
     add effect = 95.invisible
@@ -236,7 +243,7 @@
 
     {//
     theme=true
-    start=start DeculanMode
+    start=Startup DeculanMode
     add effect = 56.harder
     //}
 
