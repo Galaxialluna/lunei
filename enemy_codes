@@ -65,3 +65,10 @@ drops="Mothiflin.25%""Mothgen.25%""Mothwings.25%""mothified object.25%";
   health="790"
   contact.damage="40"
  //}
+ 
+ {//
+   name="Alphabetic_Misery"
+   type="enemy"
+   health="890"
+   contact.damage="78"
+ //}
