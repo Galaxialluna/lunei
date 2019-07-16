@@ -9,8 +9,37 @@ def game_intro():
             if event.type == pygame.QUIT:
                 pygame.quit()
                 quit()
+        for  event in pygame.event.get()
+            print(event)
+            if event.type == pygame.START:
+                pygame.start()
+                start()
+   while start:
+          Normal()
+          Deculan()
+          Divine()
+          if event.type == pygame.NORMAL:
+          print(event)
+          pygame.normal()
+          normal()
+          if event.type == pygame.DECULAN:
+          print(event)
+          pygame.deculan()
+          deculan()
+          if event.type == pygame.DIVINE:
+          pygame.divine()
+          divine()
+          
+    while Normal:
+       Startup Normal
+    while Deculan:
+       Startup Deculan
+    while Divine:
+       Startup Divine
+          
+          
 
-        gameDisplay.fill(aqua)
+        gameDisplay.fill(3F1BAD)
         largeText = pygame.font.Font('freesansbold.ttf',115)
         TextSurf, TextRect = text_objects("Lunei", largeText)
         TextRect.center = ((display_width/2),(display_height/2))
